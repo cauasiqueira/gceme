@@ -2,7 +2,7 @@ node('docker') {
   checkout scm
 
   // Kubernetes cluster info
-  def cluster = 'gtc'
+  def cluster = 'gtc-caua'
   def zone = 'us-central1-f'
   def project = 'playground-1058'
 
